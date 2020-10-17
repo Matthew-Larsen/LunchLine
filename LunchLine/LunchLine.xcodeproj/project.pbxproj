@@ -15,6 +15,7 @@
 		00ECBF84253B55FA00CD27F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00ECBF82253B55FA00CD27F9 /* LaunchScreen.storyboard */; };
 		00ECBF8F253B55FA00CD27F9 /* LunchLineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ECBF8E253B55FA00CD27F9 /* LunchLineTests.swift */; };
 		00ECBF9A253B55FA00CD27F9 /* LunchLineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00ECBF99253B55FA00CD27F9 /* LunchLineUITests.swift */; };
+		00ECBFA8253B5A2000CD27F9 /* User.json in Resources */ = {isa = PBXBuildFile; fileRef = 00ECBFA7253B5A2000CD27F9 /* User.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		00ECBF95253B55FA00CD27F9 /* LunchLineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunchLineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00ECBF99253B55FA00CD27F9 /* LunchLineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchLineUITests.swift; sourceTree = "<group>"; };
 		00ECBF9B253B55FA00CD27F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00ECBFA7253B5A2000CD27F9 /* User.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = User.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				00ECBF7D253B55F900CD27F9 /* Assets.xcassets */,
 				00ECBF82253B55FA00CD27F9 /* LaunchScreen.storyboard */,
 				00ECBF85253B55FA00CD27F9 /* Info.plist */,
+				00ECBFA7253B5A2000CD27F9 /* User.json */,
 				00ECBF7F253B55F900CD27F9 /* Preview Content */,
 			);
 			path = LunchLine;
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00ECBFA8253B5A2000CD27F9 /* User.json in Resources */,
 				00ECBF84253B55FA00CD27F9 /* LaunchScreen.storyboard in Resources */,
 				00ECBF81253B55F900CD27F9 /* Preview Assets.xcassets in Resources */,
 				00ECBF7E253B55F900CD27F9 /* Assets.xcassets in Resources */,

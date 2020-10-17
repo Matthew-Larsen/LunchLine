@@ -22,7 +22,7 @@ struct ContentView: View {
                     }
                 }
                 .tag(0)
-            Text("Second View")
+            Text("Third View")
                 .font(.title)
                 .tabItem {
                     VStack {
