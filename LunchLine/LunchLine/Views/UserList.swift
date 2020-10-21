@@ -10,10 +10,17 @@ import SwiftUI
 
 struct UserList: View {
     var users: [User]
+    @State private var name: String = ""
     
     var body: some View {
-        List(users){ user in
-            UserRow(user: user)
+        List {
+            TextField("Search for friends", text: $name)
+            
+            ForEach (users){ user in
+                if self.name == "" || user.username.contains(self.name) {
+                    UserRow(user: user)
+                }
+            }
         }
     }
 }
