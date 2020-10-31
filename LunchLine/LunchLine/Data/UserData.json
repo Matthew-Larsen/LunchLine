@@ -1,8 +1,8 @@
 [
 {
     "id" : 0,
-    "name" : "Test User's name",
-    "username" : "testusername",
+    "name" : "George",
+    "username" : "soccerboi69",
     "email" : "testemail@fake.com",
     "phone_number" : "1-888-888-8888",
     "profile_image_name" : "man",
@@ -17,8 +17,8 @@
 },
 {
     "id" : 1,
-    "name" : "Test User's 2",
-    "username" : "testusername",
+    "name" : "Sharon",
+    "username" : "puppylover",
     "email" : "testemail@fake.com",
     "phone_number" : "1-888-888-8888",
     "profile_image_name" : "icybay",
@@ -33,8 +33,8 @@
 },
 {
     "id" : 2,
-    "name" : "Test User's 3",
-    "username" : "testusername",
+    "name" : "Frank",
+    "username" : "frank123",
     "email" : "testemail@fake.com",
     "phone_number" : "1-888-888-8888",
     "profile_image_name" : "chincoteague",
@@ -49,8 +49,8 @@
 },
 {
     "id" : 3,
-    "name" : "Test User's 4",
-    "username" : "testusername",
+    "name" : "Steve",
+    "username" : "steve123",
     "email" : "testemail@fake.com",
     "phone_number" : "1-888-888-8888",
     "profile_image_name" : "man",

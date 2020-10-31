@@ -16,8 +16,8 @@ struct UserList: View {
         List {
             TextField("Search for friends", text: $name)
             
-            ForEach (users){ user in
-                if self.name == "" || user.username.contains(self.name) {
+            ForEach (self.users){ user in
+                if self.name.isEmpty || (user.name.lowercased().contains(self.name.lowercased()) || user.username.lowercased().contains(self.name.lowercased())){
                     UserRow(user: user)
                 }
             }

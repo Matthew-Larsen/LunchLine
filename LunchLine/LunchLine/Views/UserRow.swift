@@ -24,11 +24,22 @@ struct UserRow: View {
         HStack{
             
             user.profile_image.resizable().frame(width:50, height:50)
-            Text(user.name)
+            VStack(alignment: .leading, spacing: 3){
+                Text(user.name)
+                Text(user.username).foregroundColor(Color.gray)
+            }
             Spacer()
-            
-            
+            Button(action: {print("Sent request to \(self.user.username)")}){
+                Text("Add").font(.body)
+            }
+            .foregroundColor(Color.white)
+            .padding(.all)
+            .background(Color.green)
+            .cornerRadius(16)
         }
+        .contentShape(Rectangle())
+        .onTapGesture{print("tapped \(self.user.name)")}
+
     }
 }
 
