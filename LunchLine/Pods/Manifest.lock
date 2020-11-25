@@ -301,10 +301,12 @@ PODS:
   - nanopb/decode (1.30905.0)
   - nanopb/encode (1.30905.0)
   - PromisesObjC (1.2.10)
+  - QRCode (2.0)
 
 DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Firestore
+  - QRCode
 
 SPEC REPOS:
   trunk:
@@ -323,6 +325,7 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - PromisesObjC
+    - QRCode
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
@@ -340,7 +343,8 @@ SPEC CHECKSUMS:
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: c43f40fadfe79e8b8db116583945847910cbabc9
   PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
+  QRCode: f98a1886c8f37523704a7512a4c0cd45b34c18a4
 
-PODFILE CHECKSUM: 123f621c47ec4bcd9e53fc069266126565d51d48
+PODFILE CHECKSUM: 9f5b36eee59da410e63ad29bdb360af08a057df6
 
 COCOAPODS: 1.9.3

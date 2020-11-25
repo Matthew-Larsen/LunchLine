@@ -6,6 +6,7 @@ target 'LunchLine' do
   use_frameworks!
 	pod 'Firebase/Auth'
 	pod 'Firebase/Firestore'
+	pod 'QRCode'
 
   # Pods for LunchLine
 
