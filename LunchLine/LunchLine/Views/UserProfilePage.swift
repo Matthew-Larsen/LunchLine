@@ -16,8 +16,29 @@ struct UserProfilePage: View {
             Spacer().frame(height:20)
             Text(user.name)
             Spacer().frame(height:10)
-            Text("Friends (\(user.friends.count))")
+            
+            NavigationLink(destination: UserList(users:
+                userData.all(where: {self.user.friends.contains($0.username)})
+            )
+            .navigationBarTitle("Friends", displayMode: .inline)
+            //.navigationBarHidden(true)
+            ){
+                Text("Friends (\(user.friends.count))")
+                
+            }
             Spacer().frame(height: 40)
+            
+            Button(action: {print("Sent request to \(self.user.username)")}){
+                Text("              Add              ").font(.body)
+            }
+            .foregroundColor(Color.white)
+            .padding(.all)
+            .background(Color.green)
+            .cornerRadius(16)
+            .buttonStyle(PlainButtonStyle())
+            
+            Spacer().frame(height: 30)
+            
             VStack(alignment: .leading){
 
                 Text("My Major is...")

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>128682637479-eeu7nogk6hhdkuj20kljkdl9ep5lq79c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.128682637479-eeu7nogk6hhdkuj20kljkdl9ep5lq79c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDF0HshhMD1e96x89_rXyJQo-vPFoR7bt4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>128682637479</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>matt.larsen.LunchLine</string>
+	<key>PROJECT_ID</key>
+	<string>lunchline-caf87</string>
+	<key>STORAGE_BUCKET</key>
+	<string>lunchline-caf87.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:128682637479:ios:304ff4d04745b028d94382</string>
+	<key>DATABASE_URL</key>
+	<string>https://lunchline-caf87.firebaseio.com</string>
+</dict>
+</plist>

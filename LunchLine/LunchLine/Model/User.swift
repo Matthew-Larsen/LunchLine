@@ -36,4 +36,8 @@ extension User{
     }
 }
 
-
+extension User{
+    var qr_image : Image {
+        ImageStore.shared.image(name: qr_code)
+    }
+}
